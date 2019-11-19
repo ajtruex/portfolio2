@@ -47,10 +47,10 @@ export default {
         const response = await ProjectsService.getProject(
           self.$route.params.slug
         )
-        console.log(response)
+        // console.log(response)
         self.airtableResponse = response.data.records
       } catch (err) {
-        console.log(err)
+        // console.log(err)
       }
     }
     getProject()
@@ -67,6 +67,7 @@ export default {
         }
         return thisProject
       }
+      return this
     }
   }
 }

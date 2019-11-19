@@ -42,10 +42,10 @@ export default {
     async function getProjects() {
       try {
         const response = await ProjectsService.getProjects()
-        console.log(response)
+        // console.log(response)
         self.airtableResponse = response.data.records
       } catch (err) {
-        console.log(err)
+        // console.log(err)
       }
     }
     getProjects()
