@@ -1,32 +1,74 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <router-link class="navbar-item" to="/">
+          <img src="./assets/regboobx1024.png" />
+        </router-link>
+        <a
+          role="button"
+          class="navbar-burger burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+          :class="{ 'is-active': showNav }"
+          @click="showNav = !showNav"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div
+        id="navbarBasicExample"
+        class="navbar-menu"
+        :class="{ 'is-active': showNav }"
+      >
+        <div class="navbar-start"></div>
+        <div class="navbar-end">
+          <router-link to="/" class="navbar-item">Home</router-link>
+          <router-link to="/about" class="navbar-item">About</router-link>
+          <router-link to="/projects" class="navbar-item">Projects</router-link>
+          <router-link to="/contact" class="navbar-item">Contact</router-link>
+        </div>
+      </div>
+    </nav>
     <router-view />
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>Built by Andrew Truex</p>
+      </div>
+    </footer>
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
+<script>
+export default {
+  name: "App",
+  data() {
+    return {
+      showNav: false
     }
   }
 }
+</script>
+
+<style type="text/css">
+#app {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 168px; /* height of your footer */
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+</style>
+
+<style lang="sass">
+@import "~bulma/bulma.sass"
 </style>
