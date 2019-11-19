@@ -1,6 +1,8 @@
 .DS_Store
 node_modules
 /dist
+boo
+bear
 # local env files
 .env.local
 .env.*.local
