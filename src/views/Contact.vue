@@ -1,9 +1,9 @@
 <template>
   <div>
-    <section class="hero is-medium is-primary is-bold">
+    <section class="hero is-medium  is-bold">
       <div class="hero-body">
-        <div class="container">
-          <h1 class="title is-2">Get In Touch</h1>
+        <div class="container has-text-centered">
+          <h1 class="title is-2 has-text-light">Contact</h1>
         </div>
       </div>
     </section>
@@ -12,20 +12,37 @@
         <div class="columns is-centered">
           <div class="column is-one-third">
             <div class="box">
-              <h3 class="is-size-4 has-text-weight-medium">Email</h3>
+              <figure class="image is-rounded is-32x32">
+                <img src="../assets/email.svg" alt="Placeholder image" />
+              </figure>
+              <!-- <h3 class="is-size-4 has-text-weight-medium">Email</h3> -->
               <p>
-                <a href="mailto:mark@hellomark.dev">mark@hellomark.dev</a>
+                <a href="mailto:andrewtruex@gmail.com">andrewtruex@gmail.com</a>
               </p>
-              <h3 class="is-size-4 has-text-weight-medium">Twitter</h3>
+              <figure class="image is-rounded is-32x32">
+                <img src="../assets/twitter.svg" alt="Placeholder image" />
+              </figure>
               <p>
-                <a href="https://twitter.com/MarkJohnson303">@markjohnson303</a>
+                <a href="https://twitter.com/DevTruex">@DevTruex</a>
               </p>
-              <h3 class="is-size-4 has-text-weight-medium">Github</h3>
+              <figure class="image is-rounded is-32x32">
+                <img src="../assets/github.svg" alt="Placeholder image" />
+              </figure>
               <p>
-                <a href="https://github.com/markjohnson303"
-                  >github.com/markjohnson303</a
-                >
+                <a href="https://github.com/ajtruex">github.com/ajtruex</a>
               </p>
+
+              <div>
+                <figure class="image is-rounded is-32x32">
+                  <img
+                    src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
+                    alt=""
+                  />
+                </figure>
+                <p>
+                  <a href="https://dev.to/ajtruex">dev.to/ajtruex</a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -39,3 +56,8 @@ export default {
   name: "contact"
 }
 </script>
+<style type="text/css">
+.hero {
+  background-color: #1a2b33;
+}
+</style>
