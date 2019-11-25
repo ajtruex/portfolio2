@@ -77,7 +77,7 @@
           <div class="column is-one-fifth">
             <div class="box">
               <figure class="image is-square">
-                <img src="../assets/vue-logo.png" alt="Placeholder image" />
+                <!-- <img src="../assets/vue-logo.png" alt="Placeholder image" /> -->
               </figure>
               <h3
                 class="tech-box-title title is-4 has-text-weight-medium has-text-centered"
@@ -90,7 +90,7 @@
           <div class="column is-one-fifth">
             <div class="box">
               <figure class="image is-square">
-                <img src="../assets/js-logo.png" alt="Placeholder image" />
+                <!-- <img src="../assets/js-logo.png" alt="Placeholder image" /> -->
               </figure>
               <h3
                 class="tech-box-title title is-4 has-text-weight-medium has-text-centered"
@@ -103,7 +103,7 @@
           <div class="column is-one-fifth">
             <div class="box">
               <figure class="image is-square">
-                <img src="../assets/node-logo.png" alt="Placeholder image" />
+                <!-- <img src="../assets/node-logo.png" alt="Placeholder image" /> -->
               </figure>
               <h3
                 class="tech-box-title title is-4 has-text-weight-medium has-text-centered"
@@ -116,10 +116,10 @@
           <div class="column is-one-fifth">
             <div class="box">
               <figure class="image is-square">
-                <img
+                <!-- <img
                   src="../assets/firebase-logo.png"
                   alt="Placeholder image"
-                />
+                />-->
               </figure>
               <h3
                 class="tech-box-title title is-4 has-text-weight-medium has-text-centered"
