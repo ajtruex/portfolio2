@@ -4,6 +4,9 @@
       <div class="hero-body">
         <div class="container has-text-centered">
           <h1 class="title is-2 has-text-light">Uses</h1>
+          <h2 class="subtitle is-4 has-text-light">
+            List of things I use for development on a day to day basis
+          </h2>
         </div>
       </div>
     </section>
