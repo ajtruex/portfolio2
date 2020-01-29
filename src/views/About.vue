@@ -24,43 +24,27 @@
           </div>
           <div class="column">
             <div class="box">
-              <h3 class="title is-4 has-text-weight-medium">TDB</h3>
+              <h3 class="title is-4 has-text-weight-medium">
+                Full Stack Proficiency
+              </h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Placeat delectus eius esse, perspiciatis cumque ratione commodi
-                rerum distinctio sunt. Ut aperiam perferendis eum, dolores
-                quidem sit laborum minima maxime porro?
+                Proficient in working across the application stack using APIs,
+                Node, and Netlify to deliver production applications from design
+                to deployment.
               </p>
             </div>
           </div>
           <div class="column">
             <div class="box">
-              <h3 class="title is-4 has-text-weight-medium">TBD</h3>
+              <h3 class="title is-4 has-text-weight-medium">
+                Eager and Willing to Learn
+              </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Obcaecati dolores illo nostrum molestiae architecto tempore
-                ipsam dignissimos exercitationem ut, ducimus eligendi assumenda
-                laudantium ad voluptate pariatur commodi consequatur sunt
-                voluptas.
+                Ability to pick up new concepts quickly. If I am not familiar
+                with a concept or idea I am more than willing to research and
+                learn whatever is necessary.
               </p>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section has-background-light">
-      <h2 class="title is-3 has-text-weight-medium has-text-centered">
-        Experience
-      </h2>
-      <div class="container">
-        <div class="columns is-centered">
-          <div class="column is-four-fifths">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-              eum voluptate aut, nulla hic incidunt excepturi facilis, explicabo
-              enim perferendis repellat animi ipsum sunt? Rem voluptas veritatis
-              sint harum beatae!
-            </p>
           </div>
         </div>
       </div>
@@ -111,35 +95,38 @@
             </div>
           </div>
         </div>
-        <!-- <p
+        <p
           class="tech-box-title title is-4 has-text-weight-light has-text-centered"
         >
-          Web API's • Mongodb • Angular • Ruby On Rails • Postgresql
-        </p>-->
+          Web API's • MariaDB • Python • MySQL • PHP
+        </p>
       </div>
     </section>
     <section class="section has-background-light">
       <h2 class="title is-3 has-text-weight-medium has-text-centered">
         What Drives Me
       </h2>
+
       <div class="container">
         <div class="columns is-centered">
           <div class="column is-half content">
-            <!-- <ul>
+            <ul>
               <li>
-                <Strong>An innate desire to learn:</Strong>As the sole developer
-                at Knotty Tie Co, my drive to learn is what has made me
-                successful.
+                <Strong>A thirst for knowledge:</Strong>My desire to learn
+                anything that will improve my web development skills is the
+                driving force behind my work.
               </li>
               <li>
-                <Strong>Compassion for users:</Strong>I strive to make products
-                that give put users first.
+                <Strong>Technological Advancement:</Strong>I love being on the
+                bleeding edge of technology.
               </li>
+              stor
               <li>
-                <Strong>A passion for justice:</Strong>I want to put my skills
-                to work to make the world a better place for everyone.
+                <Strong>Search for original ideas:</Strong>I believe technology
+                advances through the identification and development of original
+                ideas.
               </li>
-            </ul>-->
+            </ul>
           </div>
         </div>
       </div>

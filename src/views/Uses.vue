@@ -31,7 +31,9 @@
                   <a href="https://howivscode.com/ajtruex">here.</a>
                 </li>
                 <li><a href="https://iterm2.com/">iTerm2</a> v3</li>
-                <li><a href="https://brew.sh/">Homebrew</a></li>
+                <li>
+                  <a href="https://brew.sh/">Homebrew</a>
+                </li>
                 <li>
                   <a href="https://ohmyz.sh/">Oh My Zsh</a> as my terminal app
                 </li>
@@ -43,19 +45,25 @@
             <div class="box">
               <h3 class="title is-4 has-text-weight-medium">Desktop Apps</h3>
               <ul>
-                <li><a href="https://www.alfredapp.com/">Alfred</a></li>
+                <li>
+                  <a href="https://www.alfredapp.com/">Alfred</a>
+                </li>
                 <li>
                   <a href="https://www.ergonis.com/products/typinator/"
                     >Typinator</a
                   >
                 </li>
-                <li><a href="https://magnet.crowdcafe.com/">Magnet</a></li>
+                <li>
+                  <a href="https://magnet.crowdcafe.com/">Magnet</a>
+                </li>
                 <li>
                   <a href="https://fiplab.com/apps/copyclip-for-mac"
                     >CopyClip 2</a
                   >
                 </li>
-                <li><a href="https://www.macbartender.com/">Bartender 3</a></li>
+                <li>
+                  <a href="https://www.macbartender.com/">Bartender 3</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -94,7 +102,7 @@
   </div>
 </template>
 
-<style type="text/css">
+<style type="text/css" scoped>
 .box {
   height: 100%;
 }
