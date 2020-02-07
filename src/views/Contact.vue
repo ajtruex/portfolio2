@@ -23,7 +23,7 @@
                 <img src="../assets/twitter.svg" alt="Placeholder image" />
               </figure>
               <p>
-                <a href="https://twitter.com/DevTruex">@DevTruex</a>
+                <a href="https://twitter.com/ATrueDev">@ATrueDev</a>
               </p>
               <figure class="image is-rounded is-32x32">
                 <img src="../assets/github.svg" alt="Placeholder image" />
