@@ -8,7 +8,7 @@
     >
       <div class="navbar-brand">
         <router-link class="navbar-item" to="/">
-          <img src="./assets/regboobx1024.png" />
+          <img src="./assets/regboobx1024-smallsmall.png" />
         </router-link>
         <a
           role="button"
