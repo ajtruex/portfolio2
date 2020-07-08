@@ -36,6 +36,7 @@
           <router-link to="/projects" class="navbar-item">Projects</router-link>
           <router-link to="/uses" class="navbar-item">Uses</router-link>
           <router-link to="/contact" class="navbar-item">Contact</router-link>
+          <DarkMode class="navbar-item"></DarkMode>
         </div>
       </div>
     </nav>
@@ -45,17 +46,48 @@
         <p>Built by Andrew Truex</p>
       </div>
     </footer>
+    <!-- <button @click="darkThemeSwitch">
+      Dark Mode
+    </button> -->
   </div>
 </template>
 
 <script>
+import DarkMode from "vue-dark-mode-switcher"
 export default {
   name: "App",
+  components: {
+    DarkMode
+  },
   data() {
     return {
       showNav: false
     }
   }
+  // methods: {
+  //   _addDarkTheme() {
+  //     let darkThemeLinkEl = document.createElement("link")
+  //     darkThemeLinkEl.setAttribute("rel", "stylesheet")
+  //     darkThemeLinkEl.setAttribute("href", "/css/darktheme.css")
+  //     darkThemeLinkEl.setAttribute("id", "dark-theme-style")
+
+  //     let docHead = document.querySelector("head")
+  //     docHead.append(darkThemeLinkEl)
+  //   },
+  //   _removeDarkTheme() {
+  //     let darkThemeLinkEl = document.querySelector("#dark-theme-style")
+  //     let parentNode = darkThemeLinkEl.parentNode
+  //     parentNode.removeChild(darkThemeLinkEl)
+  //   },
+  //   darkThemeSwitch() {
+  //     let darkThemeLinkEl = document.querySelector("#dark-theme-style")
+  //     if (!darkThemeLinkEl) {
+  //       this._addDarkTheme()
+  //     } else {
+  //       this._removeDarkTheme()
+  //     }
+  //   }
+  // }
 }
 </script>
 
@@ -71,6 +103,48 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+.theme-dark {
+  background-color: #1a2b33;
+}
+
+.theme-dark h1,
+.theme-dark h2,
+.theme-dark h3,
+.theme-dark h4,
+.theme-dark h5,
+.theme-dark h6,
+.theme-dark h2.title,
+.theme-dark h1.title {
+  color: #54c095;
+}
+
+.theme-dark .navbar {
+  background: #000000;
+}
+
+.theme-dark .navbar-item {
+  color: #fff;
+}
+
+.theme-dark footer {
+  background-color: #000;
+  color: #fff;
+}
+.theme-dark .box {
+  background-color: #000;
+  color: #fff;
+}
+
+.theme-dark h3.title,
+.theme-dark p.tech-box-title,
+.theme-dark p.title,
+.theme-dark ul,
+.theme-dark strong {
+  color: white;
+}
+.theme-dark .card-content {
+  background: #000;
 }
 </style>
 

@@ -102,7 +102,7 @@
         </p>
       </div>
     </section>
-    <section class="section has-background-light">
+    <section class="section">
       <h2 class="title is-3 has-text-weight-medium has-text-centered">
         What Drives Me
       </h2>
@@ -112,17 +112,17 @@
           <div class="column is-half content">
             <ul>
               <li>
-                <Strong>A thirst for knowledge:</Strong>My desire to learn
+                <Strong>A thirst for knowledge: </Strong>My desire to learn
                 anything that will improve my web development skills is the
                 driving force behind my work.
               </li>
               <li>
-                <Strong>Technological Advancement:</Strong>I love being on the
+                <Strong>Technological Advancement: </Strong>I love being on the
                 bleeding edge of technology.
               </li>
               stor
               <li>
-                <Strong>Search for original ideas:</Strong>I believe technology
+                <Strong>Search for original ideas: </Strong>I believe technology
                 advances through the identification and development of original
                 ideas.
               </li>

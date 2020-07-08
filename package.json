@@ -12,6 +12,7 @@
     "bulma": "^0.8.2",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
+    "vue-dark-mode-switcher": "^0.1.8",
     "vue-router": "^3.3.4",
     "vue-simple-markdown": "^1.1.4"
   },
