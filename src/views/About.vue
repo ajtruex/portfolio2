@@ -120,7 +120,6 @@
                 <Strong>Technological Advancement: </Strong>I love being on the
                 bleeding edge of technology.
               </li>
-              stor
               <li>
                 <Strong>Search for original ideas: </Strong>I believe technology
                 advances through the identification and development of original
