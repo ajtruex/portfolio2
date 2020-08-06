@@ -92,12 +92,17 @@ footer {
   color: #54c095;
 }
 
-.theme-dark .navbar {
+.theme-dark .navbar .navbar-menu {
   background: #000000;
 }
 
 .theme-dark .navbar-item {
   color: #fff;
+  background: black;
+}
+
+.theme-dark .navbar-brand {
+  background: black;
 }
 
 .theme-dark footer {
@@ -118,6 +123,10 @@ footer {
 }
 .theme-dark .card-content {
   background: #000;
+}
+
+.theme-dark .markdown-body {
+  color: white;
 }
 </style>
 
