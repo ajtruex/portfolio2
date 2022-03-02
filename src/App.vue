@@ -1,11 +1,7 @@
 <template>
   <div id="app">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <nav
-      class="navbar is-transparent"
-      role="navigation"
-      aria-label="main navigation"
-    >
+    <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <router-link class="navbar-item" to="/">
           <img src="./assets/regboobx1024-smallsmall.png" />
@@ -24,11 +20,7 @@
           <span aria-hidden="true"></span>
         </a>
       </div>
-      <div
-        id="navbarBasicExample"
-        class="navbar-menu"
-        :class="{ 'is-active': showNav }"
-      >
+      <div id="navbarBasicExample" class="navbar-menu" :class="{ 'is-active': showNav }">
         <div class="navbar-start"></div>
         <div class="navbar-end">
           <router-link to="/" class="navbar-item">Home</router-link>

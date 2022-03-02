@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero is-medium  is-bold">
+    <section class="hero is-medium is-bold">
       <div class="hero-body">
         <div class="container has-text-centered">
           <h1 class="title is-2 has-text-light">Contact</h1>
@@ -34,10 +34,7 @@
 
               <div>
                 <figure class="image is-rounded is-32x32">
-                  <img
-                    src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
-                    alt=""
-                  />
+                  <img src="../assets/dev-rainbow.svg" alt="Placeholder image" />
                 </figure>
                 <p>
                   <a href="https://dev.to/ajtruex">dev.to/ajtruex</a>
